@@ -1,8 +1,8 @@
-
+DELETE FROM posts;
 DELETE FROM bodyPart;
 DELETE FROM difficulty;
 DELETE FROM images;
-DELETE FROM posts;
+
 
 
 
