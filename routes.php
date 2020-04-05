@@ -7,10 +7,10 @@ function call($controller, $action)
     // create a new instance of the needed controller
     switch ($controller) {
         //for non-data-driven pages use the PagesController class
-        case 'pages':
-            $controller = new PagesController();
+        case 'body_parts':
+            $controller = new BodyPartsController();
             break;
-
+        //we will need to add a separate case for each controller
         default:
             //for all data-driven pages use a specific Controller class
             //we need the model to query the database later in the process
@@ -26,7 +26,7 @@ function call($controller, $action)
 // for validation we list the allowed controllers and their actions
 // Add an entry for each new controller and its actions
 $controllers = array('pages' => ['home', 'error'],
-    'product' => ['readAll', 'read', 'create', 'update', 'delete'],
+    'body_parts' => ['create'],
     'controllerXXX' => ['actionYYY', 'actionZZZ'],
 );
 
