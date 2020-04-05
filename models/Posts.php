@@ -1,6 +1,7 @@
 <?php
 
 class Posts
+
 {
     private $id;
     private $exercise_name;
