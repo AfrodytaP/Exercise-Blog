@@ -2,37 +2,34 @@
 <div class="row h-25 d-inline-block"></div>
 <form>
     <div class="form-group">
-        <label for="exampleFormControlInput1">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <label for="ExerciseName">Exercise Name</label>
+        <input type="text" class="form-control" id="ExerciseName" name="ExerciseName" placeholder="Push Up">
     </div>
     <div class="form-group">
-        <label for="exampleFormControlSelect1">Example select</label>
-        <select class="form-control" id="exampleFormControlSelect1">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
+        <label for="BodyPart">Body Part</label>
+        <select class="form-control" id="BodyPart" name="BodyPart">
+            <option value="1">Arms</option>
+            <option value="2">Chest</option>
+            <option value="3">Abs</option>
+            <option value="4">Legs</option>
         </select>
     </div>
     <div class="form-group">
-        <label for="exampleFormControlSelect2">Example multiple select</label>
-        <select multiple class="form-control" id="exampleFormControlSelect2">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
+        <label for="ExperienceLevel">Experience Level</label>
+        <select class="form-control" id="ExperienceLevel" name="ExperienceLevel">
+            <option value="1">Biginner</option>
+            <option value="2">Intermediate</option>
+            <option value="3">Advanced</option>
         </select>
     </div>
     <div class="form-group">
-        <label for="exampleFormControlTextarea1">Example textarea</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <label for="ExerciseDiscription">Exercise Discription (1000 word max)</label>
+        <textarea class="form-control" maxlength="1000" id="ExerciseDiscription" name="ExerciseDiscription" rows="3"></textarea>
     </div>
 </form>
 <form>
     <div class="form-group">
-        <label for="exampleFormControlFile1">Example file input</label>
+        <label for="exampleFormControlFile1">Exercise image file input</label>
         <input type="file" class="form-control-file" id="exampleFormControlFile1">
     </div>
 </form>
