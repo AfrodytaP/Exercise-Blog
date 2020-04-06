@@ -4,7 +4,6 @@ DROP TABLE IF EXISTS difficulty;
 DROP TABLE IF EXISTS users;
 
 
-
 CREATE TABLE bodyPart
 (
     id   tinyint PRIMARY KEY AUTO_INCREMENT,
