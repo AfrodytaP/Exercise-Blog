@@ -7,10 +7,10 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
         <script src="https://cdn.ckeditor.com/ckeditor5/18.0.0/classic/ckeditor.js"></script>
-        <script src="../../../scripts/scripts.js" type="text/javascript"></script>
+        <script src="../../scripts/scripts.js" type="text/javascript"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-        <link href="../../../css/style.css" rel="stylesheet" type="text/css"/>
-        <link href="../../../css/admin.css" rel="stylesheet" type="text/css"/>
+        <link href="../../css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="../../css/admin.css" rel="stylesheet" type="text/css"/>
         
     </head>
     
@@ -18,7 +18,7 @@
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <div class="container">
                 <div class="col-md-3" id="logo">
-                    <a class="navbar-brand js-scroll-trigger" style="margin-left: 15%;" href="#"><img src="../../../images/logo.png" alt="logo"/></a>
+                    <a class="navbar-brand js-scroll-trigger" style="margin-left: 15%;" href="#"><img src="../../images/logo.png" alt="logo"/></a>
                 </div>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
@@ -71,23 +71,23 @@
                             <div class="form-group">
                                 <label for="ExperienceLevel">Experience Level</label>
                                 <select class="form-control" id="ExperienceLevel" name="ExperienceLevel">
-                                    <option value="1">Biginner</option>
+                                    <option value="1">Beginner</option>
                                     <option value="2">Intermediate</option>
                                     <option value="3">Advanced</option>
                                 </select>
                             </div>
                             <div class="form-group">
-                                <label for="body">Exercise Discription (1000 word max)</label>
+                                <label for="body">Exercise Description (1000 word max)</label>
                                 <textarea class="form-control" maxlength="1000" id="body" name="ExerciseDiscription"></textarea>
                             </div>
                         </form>
                         <form>
                             <div class="form-group">
-                                <label for="exampleFormControlFile1">Exercise image file input</label>
+                                <label for="exampleFormControlFile1">Image</label>
                                 <input type="file" class="form-control-file" id="exampleFormControlFile1">
                             </div>
                         </form>
-                        <button type="button" class="btn btn-outline-success">Add Post</button>
+                        <button type="button" class="btn btn-info">Add Post</button>
                 </div>
             </div>  
         </div>     
