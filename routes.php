@@ -10,6 +10,10 @@ function call($controller, $action)
         case 'body_parts':
             $controller = new BodyPartsController();
             break;
+        case 'pages':
+            $controller = new PagesController();
+            break;
+
         //we will need to add a separate case for each controller
         default:
             //for all data-driven pages use a specific Controller class
