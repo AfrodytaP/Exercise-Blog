@@ -39,12 +39,13 @@
                 <nav class="nav nav-pills flex-column">
                     <a class="nav-link" href="../post/indexPost.php">Manage Post</a>
                     <a class="nav-link active" href="indexUsers.php">Manage Users</a>
-                    <a class="nav-link" href="../topics/indexTopics.php">Manage Topics</a>
+                    <a class="nav-link" href="../difficulty/indexLevel.php">Manage Difficulty Levels</a>
+                    <a class="nav-link" href="../bodyparts/indexBodyPart.php">Manage Body Part</a>
                 </nav>
             </div>
             <div class="col-md-9" >
-                <button type="button" id="admin-btn" class="btn btn-info">Add User</button>
-                <button type="button" id="admin-btn" class="btn btn-info">Manage User</button>
+                <a href="createUsers.php" class="btn btn-info" id="adminBtn" >Add User</a>
+                <a href="indexUsers.php" class="btn btn-info" id="adminBtn">Manage User</a>
                 <div class="container"> 
                     <div class="card">
                         <h3 class="card-header text-center font-weight-bold text-uppercase py-4">Manage Users</h3>

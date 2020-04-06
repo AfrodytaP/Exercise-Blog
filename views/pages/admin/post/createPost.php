@@ -7,10 +7,11 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
         <script src="https://cdn.ckeditor.com/ckeditor5/18.0.0/classic/ckeditor.js"></script>
+        <script src="../../../scripts/scripts.js" type="text/javascript"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
         <link href="../../../css/style.css" rel="stylesheet" type="text/css"/>
         <link href="../../../css/admin.css" rel="stylesheet" type="text/css"/>
-        <script src="../../../scripts/scripts.js" type="text/javascript"></script>
+        
     </head>
     
     <body>
@@ -42,13 +43,13 @@
                 <nav class="nav nav-pills flex-column">
                     <a class="nav-link active" href="indexPost.php">Manage Post</a>
                     <a class="nav-link" href="../users/indexUsers.php">Manage Users</a>
-                    <a class="nav-link" href="../topics/indexTopics.php">Manage Topics</a>
+                    <a class="nav-link" href="../difficulty/indexLevel.php">Manage Difficulty Levels</a>
+                    <a class="nav-link" href="../bodyparts/indexBodyPart.php">Manage Body Part</a>
                 </nav>
             </div>
             <div class="col-md-9" >
-                <button type="button" id="admin-btn" class="btn btn-info">Add Post</button>
-                <button type="button" id="admin-btn" class="btn btn-info">Manage Post</button>
-                
+                <a href="createPost.php" class="btn btn-info" id="adminBtn">Add Post</a>
+                <a href="indexPost.php" class="btn btn-info" id="adminBtn">Manage Post</a>
 
 
                 <div class="container"> 
@@ -77,16 +78,16 @@
                             </div>
                             <div class="form-group">
                                 <label for="body">Exercise Discription (1000 word max)</label>
-                                <textarea class="form-control" maxlength="1000" id="body" name="ExerciseDiscription" rows="3"></textarea>
+                                <textarea class="form-control" maxlength="1000" id="body" name="ExerciseDiscription"></textarea>
                             </div>
                         </form>
                         <form>
                             <div class="form-group">
-                                <label for="exampleFormControlFile1">Exercise image file input</label>
+                                <label for="exampleFormControlFile1">Image</label>
                                 <input type="file" class="form-control-file" id="exampleFormControlFile1">
                             </div>
                         </form>
-                        <button type="button" class="btn btn-outline-success">Post</button>
+                        <button type="button" class="btn btn-info">Add Post</button>
                 </div>
             </div>  
         </div>     

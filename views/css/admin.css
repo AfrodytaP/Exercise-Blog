@@ -30,8 +30,25 @@ body{
   width: 200px;
 }
 
-
-#admin-btn{
-    margin-top: 40px;
+#adminBtn{
     margin-bottom: 20px;
+}
+
+
+.edit{
+    color: green;
+}
+
+.delete{
+    color: red;
+}
+.publish{
+    color: blue;
+}
+
+
+.edit:hover,
+.delete:hover,
+.publish:hover{
+    text-decoration: underline;
 }

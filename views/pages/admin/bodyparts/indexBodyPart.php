@@ -37,21 +37,20 @@
         <div class="row" style="padding-top: 80px;">
             <div class="col-md-2" >
                 <nav class="nav nav-pills flex-column">
-                    <a class="nav-link active" href="indexPost.php">Manage Post</a>
+                    <a class="nav-link" href="../post/indexPost.php">Manage Post</a>
                     <a class="nav-link" href="../users/indexUsers.php">Manage Users</a>
                     <a class="nav-link" href="../difficulty/indexLevel.php">Manage Difficulty Levels</a>
-                    <a class="nav-link" href="../bodyparts/indexBodyPart.php">Manage Body Part</a>
+                    <a class="nav-link active" href="indexBodyPart.php">Manage Body Part</a>
                 </nav>
             </div>
             <div class="col-md-9" >
-                <a href="createPost.php" class="btn btn-info" id="adminBtn">Add Post</a>
-                <a href="indexPost.php" class="btn btn-info" id="adminBtn">Manage Post</a>
-               
+                <a href="createBodyPart.php" class="btn btn-info" id="adminBtn">Add Body Part</a>
+                <a href="indexBodyPart.php" class="btn btn-info" id="adminBtn">Manage Body Part</a>
 
-            
+
                 <div class="container"> 
                     <div class="card">
-                        <h3 class="card-header text-center font-weight-bold text-uppercase py-4">Manage Posts</h3>
+                        <h3 class="card-header text-center font-weight-bold text-uppercase py-4">Manage Body Part</h3>
                         <div class="card-body">
                             <table class="table fixed_header table-bordered table-responsive-sm table-striped text-center">
                                 <thead>
@@ -60,9 +59,8 @@
                                       <th>Col 2</th>
                                       <th>Col 3</th>
                                       <th>Col 4</th>
-                                      <th>Action</th>
+                                      <th>Edit</th>
                                       <th>Delete</th>
-                                      <th>Publish</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -71,9 +69,8 @@
                                     <td>row 1-1</td>
                                     <td>row 1-2</td>
                                     <td>row 1-3</td>
-                                    <td><a herdf="#" class="edit" >Edit</a></td>
-                                    <td><a herdf="#" class="delete" >Delete</a></td>
-                                    <td><a herdf="#" class="publish" >Publish</a></td>
+                                    <td>Edit</td>
+                                    <td>Delete</td>
                                   </tr>
                                   <tr>
                                     <td>row 1-0</td>
@@ -82,7 +79,6 @@
                                     <td>row 1-3</td>
                                     <td>Edit</td>
                                     <td>Delete</td>
-                                    <td>Publish</td>
                                   </tr>
                                   <tr>
                                     <td>row 1-0</td>
@@ -91,7 +87,6 @@
                                     <td>row 1-3</td>
                                     <td>Edit</td>
                                     <td>Delete</td>
-                                    <td>Publish</td>
                                   </tr>
                                   <tr>
                                     <td>row 1-0</td>
@@ -100,7 +95,6 @@
                                     <td>row 1-3</td>
                                     <td>Edit</td>
                                     <td>Delete</td>
-                                    <td>Publish</td>
                                   </tr>
                                   <tr>
                                     <td>row 1-0</td>
@@ -109,7 +103,6 @@
                                     <td>row 1-3</td>
                                     <td>Edit</td>
                                     <td>Delete</td>
-                                    <td>Publish</td>
                                   </tr>
                                   <tr>
                                     <td>row 1-0</td>
@@ -118,7 +111,6 @@
                                     <td>row 1-3</td>
                                     <td>Edit</td>
                                     <td>Delete</td>
-                                    <td>Publish</td>
                                   </tr>
                                   <tr>
                                     <td>row 1-0</td>
@@ -127,7 +119,6 @@
                                     <td>row 1-3</td>
                                     <td>Edit</td>
                                     <td>Delete</td>
-                                    <td>Publish</td>
                                   </tr>
                                   <tr>
                                     <td>row 1-0</td>
@@ -136,7 +127,6 @@
                                     <td>row 1-3</td>
                                     <td>Edit</td>
                                     <td>Delete</td>
-                                    <td>Publish</td>
                                   </tr>
                                   <tr>
                                     <td>row 1-0</td>
@@ -145,7 +135,6 @@
                                     <td>row 1-3</td>
                                     <td>Edit</td>
                                     <td>Delete</td>
-                                    <td>Publish</td>
                                   </tr>
                                   <tr>
                                     <td>row 1-0</td>
@@ -154,7 +143,6 @@
                                     <td>row 1-3</td>
                                     <td>Edit</td>
                                     <td>Delete</td>
-                                    <td>Publish</td>
                                   </tr>
                                   <tr>
                                     <td>row 1-0</td>
@@ -163,7 +151,6 @@
                                     <td>row 1-3</td>
                                     <td>Edit</td>
                                     <td>Delete</td>
-                                    <td>Publish</td>
                                   </tr>
                                   <tr>
                                     <td>row 1-0</td>
@@ -172,7 +159,6 @@
                                     <td>row 1-3</td>
                                     <td>Edit</td>
                                     <td>Delete</td>
-                                    <td>Publish</td>
                                   </tr>
                                   <tr>
                                     <td>row 1-0</td>
@@ -181,7 +167,6 @@
                                     <td>row 1-3</td>
                                     <td>Edit</td>
                                     <td>Delete</td>
-                                    <td>Publish</td>
                                   </tr>
                                 </tbody>
                             </table>

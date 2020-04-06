@@ -41,45 +41,25 @@
         <div class="row" style="padding-top: 80px;">
             <div class="col-md-2" >
                 <nav class="nav nav-pills flex-column">
-                    <a class="nav-link" href="indexPost.php">Manage User</a>
-                    <a class="nav-link active" href="../users/indexUsers.php">Manage Users</a>
-                    <a class="nav-link" href="../difficulty/indexLevel.php">Manage Difficulty Levels</a>
+                    <a class="nav-link" href="indexPost.php">Manage Post</a>
+                    <a class="nav-link" href="../users/indexUsers.php">Manage Users</a>
+                    <a class="nav-link active" href="indexLevel.php">Manage Difficulty Levels</a>
                     <a class="nav-link" href="../bodyparts/indexBodyPart.php">Manage Body Part</a>
-                </nav>
             </div>
             <div class="col-md-9" >
-                <a href="createUsers.php" class="btn btn-info" id="adminBtn">Add User</a>
-                <a href="indexUsers.php" class="btn btn-info" id="adminBtn">Manage User</a>
+                <a href="createLevel.php" class="btn btn-info" id="adminBtn">Add Level</a>
+                <a href="indexLevel.php" class="btn btn-info" id="adminBtn">Manage Level</a>
 
 
                 <div class="container"> 
                     <div class="row h-25 d-inline-block"></div>
                         <form>
                             <div class="form-group">
-                                <label for="Username">Username</label>
-                                <input type="text" class="form-control" id="Username" name="Username" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="Eamil">Eamil</label>
-                                <input type="email" class="form-control" id="Eamil" name="Eamil" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="Password">Password</label>
-                                <input type="password" class="form-control" id="Password" name="Password"required>
-                            </div>
-                            <div class="form-group">
-                                <label for="PasswordConfirmation">Password Confirmation</label>
-                                <input type="PasswordConfirmation" class="form-control" id="PasswordConfirmation" name="PasswordConfirmation" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="Role">Role</label>
-                                <select class="form-control" id="Role" name="Role" required>
-                                    <option value="0">Author</option>
-                                    <option value="1">Admin</option>
-                                </select>
+                                <label for="DifficultyLevel">Difficulty Level</label>
+                                <input type="text" class="form-control" id="DifficultyLevel" name="DifficultyLevel" placeholder="Beginner">
                             </div>
                         </form>
-                        <button type="button" class="btn btn-info">Add User</button>
+                        <button type="button" class="btn btn-info">Add Level</button>
                 </div>
             </div>  
         </div>     

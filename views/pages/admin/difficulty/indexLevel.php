@@ -39,17 +39,18 @@
                 <nav class="nav nav-pills flex-column">
                     <a class="nav-link" href="../post/indexPost.php">Manage Post</a>
                     <a class="nav-link" href="../users/indexUsers.php">Manage Users</a>
-                    <a class="nav-link active" href="indexTopics.php">Manage Topics</a>
+                    <a class="nav-link active" href="indexLevel.php">Manage Difficulty Levels</a>
+                    <a class="nav-link" href="../bodyparts/indexBodyPart.php">Manage Body Part</a>
                 </nav>
             </div>
             <div class="col-md-9" >
-                <button type="button" id="admin-btn" class="btn btn-info">Add Topic</button>
-                <button type="button" id="admin-btn" class="btn btn-info">Manage Topic</button>
+                <a href="createLevel.php" class="btn btn-info" id="adminBtn">Add Level</a>
+                <a href="indexLevel.php" class="btn btn-info" id="adminBtn">Manage Level</a>
 
 
                 <div class="container"> 
                     <div class="card">
-                        <h3 class="card-header text-center font-weight-bold text-uppercase py-4">Manage Topics</h3>
+                        <h3 class="card-header text-center font-weight-bold text-uppercase py-4">Manage Difficulty Level</h3>
                         <div class="card-body">
                             <table class="table fixed_header table-bordered table-responsive-sm table-striped text-center">
                                 <thead>
