@@ -18,7 +18,7 @@ CREATE TABLE difficulty
 
 CREATE TABLE users
 (
-    id         tinyint PRIMARY KEY AUTO_INCREMENT,
+    id         INT PRIMARY KEY AUTO_INCREMENT,
     admin      boolean,
     username   varchar(225) NOT NULL,
     email      varchar(225) NOT NULL,
@@ -31,7 +31,7 @@ CREATE TABLE users
 CREATE TABLE posts
 (
     id            int PRIMARY KEY AUTO_INCREMENT,
-    user_id       int(11)      NOT NULL,
+    user_id       int      NOT NULL,
     exercise_name varchar(225) NOT NULL,
     body_part_id  tinyint      NOT NULL,
     difficulty_id tinyint      NOT NULL,
